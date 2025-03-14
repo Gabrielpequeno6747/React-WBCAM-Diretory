@@ -12,13 +12,26 @@ code {
     monospace;
 }
 .Title{
-  font-size: 25px;
-  color: rgb(24, 207, 79);   
+  font-size: 50px;
+  padding: 0px 30px;
+  color: rgb(40, 117, 63);   
 }
 .ButonCapitura{
   background-color: chartreuse;
-    border: 15;
+    border: 20;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    padding: 9px 10px;
+    font-size: 24px;
+}
+.Salvar-imagem{
+  background-color: rgb(17, 0, 255);
+  border: 15;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.Foto-capturada{
+  color: red;
 }

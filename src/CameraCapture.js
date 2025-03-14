@@ -47,14 +47,14 @@ const CameraCapture = () => {
 
       {photo && (
         <div>
-          <h3>Foto Capturada:</h3>
+          <h3 className='Foto-capturada'>Foto Capturada:</h3>
           <img src={photo} alt="capturada" style={{ maxWidth: '100%' }} />
         </div>
       )}
 
       {photo && (
         <div>
-          <button onClick={downloadPhoto}>Baixar Foto</button>
+          <button onClick={downloadPhoto} className='Salvar-imagem'>Baixar Foto</button>
         </div>
       )}
     </div>
