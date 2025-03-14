@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.Title{
+  font-size: 25px;
+  color: rgb(24, 207, 79);   
+}
+.ButonCapitura{
+  background-color: chartreuse;
+    border: 15;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}

@@ -32,7 +32,7 @@ const CameraCapture = () => {
 
   return (
     <div style={{ textAlign: 'center' }}>
-      <h2>Captura de Imagem da Webcam</h2>
+      <h2 className='Title'>Captura de Imagem da Webcam</h2>
       <Webcam
         audio={false}
         ref={webcamRef}
@@ -43,7 +43,7 @@ const CameraCapture = () => {
         }}
       />
       <br />
-      <button onClick={capture}>Capturar Foto</button>
+      <button onClick={capture} className='ButonCapitura'>Capturar Foto</button>
 
       {photo && (
         <div>
